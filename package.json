@@ -1,0 +1,21 @@
+{
+  "name": "icf-selector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "carlo": "^0.9.43",
+    "jsdom": "^13.1.0",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.3.0"
+  }
+}
