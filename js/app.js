@@ -1,15 +1,10 @@
-
 (function(){
 
-loadICF()
-  .then(data => setupTypeAhead(data))
-  .catch(e => console.error(e));
-
-function setupTypeAhead(data) {
+function setupTypeAhead() {
   var icfitems = new Bloodhound({
     datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
     queryTokenizer: Bloodhound.tokenizers.whitespace,
-    local: data
+    prefetch: '../ICF.json'
   });
   $('.typeahead')
     .typeahead({
@@ -47,5 +42,7 @@ function copy(text) {
   document.body.removeChild(input)
   return result;
 }
+
+setupTypeAhead();
 
 })();
