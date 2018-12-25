@@ -4,7 +4,7 @@ function setupTypeAhead() {
   var icfitems = new Bloodhound({
     datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
     queryTokenizer: Bloodhound.tokenizers.whitespace,
-    prefetch: '../ICF.json'
+    prefetch: './ICF.json'
   });
   $('.typeahead')
     .typeahead({
