@@ -1,6 +1,6 @@
 (function(){
 
-fetch('/ICF.fr.json')
+fetch('./ICF.fr.json')
   .then(res => res.json())
   .then(data => {
     fillDataset(data)
