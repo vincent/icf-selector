@@ -71,9 +71,73 @@
 body {
   background: #dee2e6 !important;
 }
-.tt-suggestion .item-path {
-  font-size: 12px;
+.twitter-typeahead, .category-toggles, .root-dataset {
+  margin: 20px auto !important;
+  width: 80% !important;
+  display: block !important;
 }
-.tt-suggestion .item-description {
+input.typeahead {
+  padding: 1.5rem !important;
+}
+.category-toggles {
+  text-align: center;
+}
+.category-toggles .btn {
+  margin: 0 10px;
+}
+.root-dataset .title,
+.root-dataset .item-path {
+  cursor: pointer;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+.root-dataset.hidden {
+  display: none !important;
+}
+.typeahead.tt-input, .typeahead.tt-hint {
+  width: 100% !important;
+  padding: 20px !important;
+  display: inline-block !important;
+}
+.tt-suggestion .item-path {
+  font-size: 11px;
+}
+.tt-suggestion .item-description,
+.tt-suggestion .item-inclusions,
+.tt-suggestion .item-exclusions {
   font-size: 13px;
+}
+.tt-suggestion {
+  border-bottom: 1px solid darkgray;
+}
+.tt-menu {
+  width: 100%;
+}
+.blockquote {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  border-left: 2px solid gray;
+  padding-left: 10px;
+  margin-left: 11%;
+}
+
+ul, li {
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style-type: none;
+  text-indent: 0;
+}
+ul ul .title, ul ul li>div:not(.item-path) { padding-left: 10px !important; }
+ul ul ul .title, ul ul ul li>div:not(.item-path) { padding-left: 20px !important; }
+ul ul ul ul .title, ul ul ul ul li>div:not(.item-path) { padding-left: 30px !important; }
+ul ul ul ul ul .title, ul ul ul ul ul li>div:not(.item-path) { padding-left: 40px !important; }
+ul ul ul ul ul ul .title, ul ul ul ul ul ul li>div:not(.item-path) { padding-left: 50px !important; }
+span.icf-code {
+  width: 10%;
+  display: inline-block;
+  min-width: 90px;
+}
+.item-path:hover {
+  background: #ccc;
+  border-radius: 3px;
 }

@@ -6,20 +6,21 @@ const { JSDOM } = require("jsdom");
 
 module.exports = (function() {
 
-	const MAX_LIST_ITEMS = 10;
+	const MAX_LIST_ITEMS = Infinity;
+	const FETCH_TIMER = 1.5 * 1000;
 
 	let DATA = [];
 
 	const CACHE_FILE = './ICF.json';
 
 	const ICF_ROOT_NODES = [
-		{ name: 'b FONCTIONS ORGANIQUES', path: [], id: 'b', expander: '1|5|fftf|23|b  FONCTIONS ORGANIQUES0|ICF\\b' },
-		// { name: 's STRUCTURES ANATOMIQUES', path: [], id: 's', expander: '2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s' },
-		// { name: 'd ACTIVITÉS ET PARTICIPATION', path: [], id: 'd', expander: '3|21|fftf|29|d  ACTIVITÉS ET PARTICIPATION0|ICF\\d' },
-		// { name: 'e FACTEURS ENVIRONNEMENTAUX', path: [], id: 'e', expander: '4|30|fftt|28|e  FACTEURS ENVIRONNEMENTAUX0|ICF\\e' }
+		{ root: true, name: 'B Fonctions organiques', path: ['B Fonctions organiques'], id: 'b', expander: '1|5|fftf|23|b  FONCTIONS ORGANIQUES0|ICF\\b' },
+		{ root: true, name: 'S Structures anatomiques', path: ['S Structures anatomiques'], id: 's', expander: '2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s' },
+		{ root: true, name: 'D Activités et participation', path: ['D Activités et participation'], id: 'd', expander: '3|21|fftf|29|d  ACTIVITÉS ET PARTICIPATION0|ICF\\d' },
+		{ root: true, name: 'E Facteurs environnementaux', path: ['E Facteurs environnementaux'], id: 'e', expander: '4|30|fftt|28|e  FACTEURS ENVIRONNEMENTAUX0|ICF\\e' }
 	];
 	
-	const LANG = 'ICFFR';
+	let LANG = 'ICFFR';
 	function setLanguage(lang) {
 		LANG = {
 			CN: 'ICFCN',  // Chinese
@@ -28,16 +29,17 @@ module.exports = (function() {
 			RU: 'ICFRU',  // Russian
 			SP: 'ICFSP'   // Spanish
 		}[lang.toUpperCase()] || 'ICFEN2';
+		return this;
 	}
 
 	function rawData() {
 		return DATA;
 	}
 
-	function loadICF() {
+	function loadICF(force) {
 		return new Promise((resolve, reject) => {
 			fs.exists(CACHE_FILE, exists => {
-				if (exists) {
+				if (!force && exists) {
 					fs.readFile(CACHE_FILE, (error, data) => {
 						DATA = JSON.parse(data.toString());
 						resolve()
@@ -55,7 +57,7 @@ module.exports = (function() {
 	// Fetch the whole tree
 	function fetchTreeQueued() {
 		return new Promise((resolve, reject) => {
-			const list = [];
+			const list = [].concat(ICF_ROOT_NODES);
 
 			var q = async.queue((node, next) => {
 				fetchNodeChildren(node)
@@ -78,16 +80,17 @@ module.exports = (function() {
 
 	// Fetch children of a single node
 	function fetchNodeChildren(node) {
-		return fetch(
+		return fetchRetry(
 			"http://apps.who.int/classifications/icfbrowser/Default.aspx", {
-				"credentials": "include",
-				"headers": {
+				credentials: "include",
+				retry: 10,
+				headers: {
 					"Accept": "*/*",
 					"Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
 					"Cache-Control": "no-cache",
 					"Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
 					"pragma": "no-cache",
-					"Cookie": "ASP.NET_SessionId=zohljc55lovdefrn0bmbwavv; TS01ac0ef4_77=089aecc054ab28000fabed31a3e2bbe0e4b676f8726ca541083b8da534f8386c5cc933d451992ecb751921680895c73208904b86128240007b731882da65758eefcac80c06246a7c999ea74e42ee1a925fb015f43787dcf81424638c709624fa11025b145894498a7d1623dc63c36a54177a80fdbfc61633; TS01ac0ef4=015dd60f3eee1238a72b716955e1fc563a9dafaac2b2c96b808b400d325c3acb9420a67dd26c0b3cd7e22258ebfcd9fded5c1ae970536bd962a77d95cc1dbc2c4918bffd80; TS011d2310=015dd60f3e7d78a7ef56acb93834cc0f1018e6c7e2d2f63dede3190fceacc96d45757921c796f7bfa64c11e0fb8a3ea0e41a361adb",
+					"Cookie": "gsScrollPos-1254611423=0; gsScrollPos-1254611386=; ASP.NET_SessionId=zohljc55lovdefrn0bmbwavv; TS011d2310=015dd60f3e29712a7830e45e72f94e02fd94b25d83b1478f4a320fd6db527a78aa8bde9426acea2d2d5a0639ca3c02785e3ba9664d; TS01ac0ef4=015dd60f3e140b40fb61e9dbd9786206f00356a9b9bdf8f9be5d517f90d4d3708af7e771d0eaf266bd801df5aab60e700d09a1cc8d75ff4f491ec534691300add252013ab5; TS01ac0ef4_77=089aecc054ab28003d1fa1d87eb39e4ee6da77559242e9ca8600f639df1e75b8c99202bc6eb29c9d53a1ccb9b2bbad690812f75e5f8240006e41ca6a297e02a9e242d351e1381c85851f2e576f5d4fd8975a7c6f8bb04fc87b83f3007c33a235fda0b58f268bbe3bf93ec17e692730908b352f49d09eb588",
 					"Host": "apps.who.int",
 					"Origin": "http://apps.who.int",
 					"Pragma": "no-cache",
@@ -96,7 +99,7 @@ module.exports = (function() {
 				},
 				"referrer": "http://apps.who.int/classifications/icfbrowser/Default.aspx",
 				"referrerPolicy": "no-referrer-when-downgrade",
-				"body": "__EVENTTARGET=&__EVENTARGUMENT=&__LASTFOCUS=&ctl00_ContentPlaceHolder1_ClassificationTreeView1_ExpandState=ecccc&ctl00_ContentPlaceHolder1_ClassificationTreeView1_SelectedNode=&ctl00_ContentPlaceHolder1_ClassificationTreeView1_PopulateLog=&__VIEWSTATE=%2FwEPDwUJNzQ0MTA3OTY5D2QWAmYPZBYCAgMPZBYCAgMPEGQPFgZmAgECAgIDAgQCBRYGEAUNSUNGIC0gQ2hpbmVzZQUFSUNGQ05nEAUNSUNGIC0gRW5nbGlzaAUFSUNGRU5nEAUMSUNGIC0gRnJlbmNoBQVJQ0ZGUmcQBQ1JQ0YgLSBSdXNzaWFuBQVJQ0ZSVWcQBQ1JQ0YgLSBTcGFuaXNoBQVJQ0ZTUGcQBRJJQ0YgMjAxNyAtIEVuZ2xpc2gFBklDRkVOMmcWAQICZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUxY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRDbGFzc2lmaWNhdGlvblRyZWVWaWV3MdGRg6KZDtIpBWxKP3drItmiRy%2FF&__VIEWSTATEGENERATOR=6B601A37&ctl00%24LanguageDropDown=" + LANG + "&__CALLBACKID=ctl00%24ContentPlaceHolder1%24ClassificationTreeView1&__CALLBACKPARAM=" + encodeURIComponent(node.expander) + "&__EVENTVALIDATION=%2FwEWFgKj1Y3OAwKOpt5VAqHnn%2BMKAqHnx9UJArXn23ACuOfLkQ4Ct%2BffvAUCoeePqwgC08CX8gsCpp6TtQICwuuDwgQCw%2Bmvng0CjeSX%2BwYCgJKOkQECoYfZ5QwC0dDh3Q8CkvLktQ0C18Dvhg0CrK7GygoCiPzkpAsCzf3AlwMC5aDLgw9yyRWvzmnarI9BlirLg5Vr3AuFYQ%3D%3D",
+				"body": "__EVENTTARGET=&__EVENTARGUMENT=&__LASTFOCUS=&ctl00_ContentPlaceHolder1_ClassificationTreeView1_ExpandState=ecccc&ctl00_ContentPlaceHolder1_ClassificationTreeView1_SelectedNode=&ctl00_ContentPlaceHolder1_ClassificationTreeView1_PopulateLog=&__VIEWSTATE=%2FwEPDwUJNzQ0MTA3OTY5D2QWAmYPZBYCAgMPZBYCAgMPEGQPFgZmAgECAgIDAgQCBRYGEAUNSUNGIC0gQ2hpbmVzZQUFSUNGQ05nEAUNSUNGIC0gRW5nbGlzaAUFSUNGRU5nEAUMSUNGIC0gRnJlbmNoBQVJQ0ZGUmcQBQ1JQ0YgLSBSdXNzaWFuBQVJQ0ZSVWcQBQ1JQ0YgLSBTcGFuaXNoBQVJQ0ZTUGcQBRJJQ0YgMjAxNyAtIEVuZ2xpc2gFBklDRkVOMmcWAQICZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUxY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRDbGFzc2lmaWNhdGlvblRyZWVWaWV3MdGRg6KZDtIpBWxKP3drItmiRy%2FF&__VIEWSTATEGENERATOR=6B601A37&ctl00$LanguageDropDown=" + LANG + "&__CALLBACKID=ctl00%24ContentPlaceHolder1%24ClassificationTreeView1&__CALLBACKPARAM=" + encodeURIComponent(node.expander) + "&__EVENTVALIDATION=%2FwEWFgKj1Y3OAwKOpt5VAqHnn%2BMKAqHnx9UJArXn23ACuOfLkQ4Ct%2BffvAUCoeePqwgC08CX8gsCpp6TtQICwuuDwgQCw%2Bmvng0CjeSX%2BwYCgJKOkQECoYfZ5QwC0dDh3Q8CkvLktQ0C18Dvhg0CrK7GygoCiPzkpAsCzf3AlwMC5aDLgw9yyRWvzmnarI9BlirLg5Vr3AuFYQ%3D%3D",
 				"method": "POST",
 				"mode": "no-cors"
 			})
@@ -118,6 +121,7 @@ module.exports = (function() {
 							// clean name
 							const re = new RegExp(`[\\(]*${id}[\\)]*`, 'g')
 							name = name.replace(re, '').trim()
+							name = name[0].toUpperCase() + name.slice(1).toLowerCase();
 
 							const path = node.path.concat(name)
 							const expanderLink = a.parentNode.parentNode.querySelector('a[href*=PopulateNode]');
@@ -127,7 +131,7 @@ module.exports = (function() {
 		
 							const child = {id, name, path, expander};
 							results.push(child);
-		
+
 							if (! expander) {
 								fetchNodeContent(child).then(content => {
 									child.content = content;
@@ -139,7 +143,7 @@ module.exports = (function() {
 						},
 						_ => {
 							console.log('fetched %o', node.name)
-							resolve(results);
+							setTimeout(_ => resolve(results), FETCH_TIMER);
 						})
 				});
 			})
@@ -150,8 +154,13 @@ module.exports = (function() {
 	}
 
 	function fetchNodeContent(node) {
-		return fetch(`http://apps.who.int/classifications/icfbrowser/Browse.aspx?code=${node.id}`)
-			.then(response => response.text())
+		return fetchRetry(`http://apps.who.int/classifications/icfbrowser/Browse.aspx?code=${node.id}`, {
+			retry: 10,
+			headers: {
+				"Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+				"Cookie": "gsScrollPos-1254611423=0; gsScrollPos-1254611386=; ASP.NET_SessionId=zohljc55lovdefrn0bmbwavv; TS011d2310=015dd60f3e29712a7830e45e72f94e02fd94b25d83b1478f4a320fd6db527a78aa8bde9426acea2d2d5a0639ca3c02785e3ba9664d; TS01ac0ef4=015dd60f3e140b40fb61e9dbd9786206f00356a9b9bdf8f9be5d517f90d4d3708af7e771d0eaf266bd801df5aab60e700d09a1cc8d75ff4f491ec534691300add252013ab5; TS01ac0ef4_77=089aecc054ab28003d1fa1d87eb39e4ee6da77559242e9ca8600f639df1e75b8c99202bc6eb29c9d53a1ccb9b2bbad690812f75e5f8240006e41ca6a297e02a9e242d351e1381c85851f2e576f5d4fd8975a7c6f8bb04fc87b83f3007c33a235fda0b58f268bbe3bf93ec17e692730908b352f49d09eb588",
+			}
+		}).then(response => response.text())
 			.then(html => {
 				const { document } = (new JSDOM(`<!DOCTYPE html>${html}</html>`)).window;
 				const title = document.getElementById('Title');
@@ -165,6 +174,23 @@ module.exports = (function() {
 					exclusions: exclusions ? exclusions.innerHTML : '',
 				}
 			})
+	}
+
+	function fetchRetry(url, opts) {
+		let retry = opts && opts.retry || 3
+		while (retry > 0) {
+			try {
+				return fetch(url, opts)
+			} catch(e) {
+				if (opts.callback) {
+					opts.callback(retry)
+				}
+				retry = retry - 1
+				if (retry == 0) {
+					throw e
+				}
+			}
+		}
 	}
 
 	function search(term) {
@@ -185,5 +211,11 @@ module.exports = (function() {
 	};
 })();
 
+///////////////////////
+///////////////////////
+///////////////////////
 
-
+module.exports
+	.setLanguage('FR')
+	.loadICF(true)
+	.then(_ => console.log('done'));

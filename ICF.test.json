@@ -1,0 +1,3134 @@
+[
+	{
+		"root": true, 
+		"name": "B Fonctions organiques", 
+		"path": ["B Fonctions organiques"],
+		"id": "b",
+		"expander": "1|5|fftf|23|b  FONCTIONS ORGANIQUES0|ICF\\b"
+	},
+	{ 
+		"root": true,
+		"name": "S Structures anatomiques",
+		"path": ["S Structures anatomiques"],
+		"id": "s",
+		"expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s"
+	},
+	{ 
+		"root": true,
+		"name": "D Activités et participation",
+		"path": ["D Activités et participation"],
+		"id": "d",
+		"expander": "3|21|fftf|29|d  ACTIVITÉS ET PARTICIPATION0|ICF\\d"
+	},
+	{ 
+		"root": true,
+		"name": "E Facteurs environnementaux",
+		"path": ["E Facteurs environnementaux"],
+		"id": "e",
+		"expander": "4|30|fftt|28|e  FACTEURS ENVIRONNEMENTAUX0|ICF\\e"
+	},
+  {
+    "id": "b1",
+    "name": "Chapitre 1 fonctions mentales",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 1 fonctions mentales"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b1"
+  },
+  {
+    "id": "b2",
+    "name": "Chapitre 2 fonctions sensorielles et douleur",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 2 fonctions sensorielles et douleur"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b2"
+  },
+  {
+    "id": "b3",
+    "name": "Chapitre 3 fonctions de la voix et de la parole",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 3 fonctions de la voix et de la parole"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b3"
+  },
+  {
+    "id": "b4",
+    "name": "Chapitre 4 fonctions des systèmes cardio-vasculaire, hématopoïétique, immunitaire et respiratoire",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 4 fonctions des systèmes cardio-vasculaire, hématopoïétique, immunitaire et respiratoire"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b4"
+  },
+  {
+    "id": "b5",
+    "name": "Chapitre 5 fonctions des systèmes digestif, métabolique et endocrinien",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 5 fonctions des systèmes digestif, métabolique et endocrinien"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b5"
+  },
+  {
+    "id": "b6",
+    "name": "Chapitre 6 fonctions génito-urinaires et reproductives",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 6 fonctions génito-urinaires et reproductives"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b6"
+  },
+  {
+    "id": "b7",
+    "name": "Chapitre 7 fonctions de l'appareil locomoteur et liées au mouvement",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 7 fonctions de l'appareil locomoteur et liées au mouvement"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b7"
+  },
+  {
+    "id": "b8",
+    "name": "Chapitre 8 fonctions de la peau et des structures associées",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 8 fonctions de la peau et des structures associées"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b8"
+  },
+  {
+    "id": "s1",
+    "name": "Chapitre 1 structures du système nerveux",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 1 structures du système nerveux"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s1"
+  },
+  {
+    "id": "s2",
+    "name": "Chapitre 2 oeil, oreille et structures annexes",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 2 oeil, oreille et structures annexes"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s2"
+  },
+  {
+    "id": "s3",
+    "name": "Chapitre 3 structures liées à la voix et à la parole",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 3 structures liées à la voix et à la parole"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s3"
+  },
+  {
+    "id": "s4",
+    "name": "Chapitre 4 structures des systèmes cardio-vasculaire, immunitaire et respiratoire",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 4 structures des systèmes cardio-vasculaire, immunitaire et respiratoire"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s4"
+  },
+  {
+    "id": "s5",
+    "name": "Chapitre 5 structures liées aux systèmes digestif, métabolique et endocrinien",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 5 structures liées aux systèmes digestif, métabolique et endocrinien"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s5"
+  },
+  {
+    "id": "s6",
+    "name": "Chapitre 6 structures liées à l'appareil génito-urinaire",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 6 structures liées à l'appareil génito-urinaire"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s6"
+  },
+  {
+    "id": "s7",
+    "name": "Chapitre 7 structures liées au mouvement",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 7 structures liées au mouvement"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s7"
+  },
+  {
+    "id": "s8",
+    "name": "Chapitre 8 peau et structures annexes",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 8 peau et structures annexes"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s8"
+  },
+  {
+    "id": "d1",
+    "name": "Chapitre 1 apprentissage et application des connaissances",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 1 apprentissage et application des connaissances"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d1"
+  },
+  {
+    "id": "d2",
+    "name": "Chapitre 2 taches et exigences générales",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 2 taches et exigences générales"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d2"
+  },
+  {
+    "id": "d3",
+    "name": "Chapitre 3 communication",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 3 communication"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d3"
+  },
+  {
+    "id": "d4",
+    "name": "Chapitre 4 mobilité",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 4 mobilité"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d4"
+  },
+  {
+    "id": "d5",
+    "name": "Chapitre 5 entretien personnel",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 5 entretien personnel"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d5"
+  },
+  {
+    "id": "d6",
+    "name": "Chapitre 6 vie domestique",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 6 vie domestique"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d6"
+  },
+  {
+    "id": "d7",
+    "name": "Chapitre 7 relations et interactions avec autrui",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 7 relations et interactions avec autrui"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d7"
+  },
+  {
+    "id": "d8",
+    "name": "Chapitre 8 grands domaines de la vie",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 8 grands domaines de la vie"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d8"
+  },
+  {
+    "id": "d9",
+    "name": "Chapitre 9 vie communautaire, sociale et civique",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 9 vie communautaire, sociale et civique"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d9"
+  },
+  {
+    "id": "e1",
+    "name": "Chapitre 1 produits et systèmes techniques",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 1 produits et systèmes techniques"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e1"
+  },
+  {
+    "id": "e2",
+    "name": "Chapitre 2 environnement naturel et changements apportés par l'homme à l'environnement",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 2 environnement naturel et changements apportés par l'homme à l'environnement"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e2"
+  },
+  {
+    "id": "e3",
+    "name": "Chapitre 3 soutiens et relations",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 3 soutiens et relations"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e3"
+  },
+  {
+    "id": "e4",
+    "name": "Chapitre 4 attitudes",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 4 attitudes"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e4"
+  },
+  {
+    "id": "e5",
+    "name": "Chapitre 5  services, systemes et politiques",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5"
+  },
+  {
+    "id": "b110-b139",
+    "name": "Fonctions mentales globales",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 1 fonctions mentales",
+      "Fonctions mentales globales"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b1\\b110-b139"
+  },
+  {
+    "id": "b140-b189",
+    "name": "Fonctions mentales spécifiques",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 1 fonctions mentales",
+      "Fonctions mentales spécifiques"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b1\\b140-b189"
+  },
+  {
+    "id": "b198",
+    "name": "Autres fonctions mentales précisées",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 1 fonctions mentales",
+      "Autres fonctions mentales précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b198  Autres fonctions mentales précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "b199",
+    "name": "Fonctions mentales non précisées",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 1 fonctions mentales",
+      "Fonctions mentales non précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b199  Fonctions mentales non précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "b210-b229",
+    "name": "Fonctions visuelles et fonctions connexes",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 2 fonctions sensorielles et douleur",
+      "Fonctions visuelles et fonctions connexes"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b2\\b210-b229"
+  },
+  {
+    "id": "b230-b249",
+    "name": "Fonctions de l'audition et fonctions vestibulaires",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 2 fonctions sensorielles et douleur",
+      "Fonctions de l'audition et fonctions vestibulaires"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b2\\b230-b249"
+  },
+  {
+    "id": "b250-b279",
+    "name": "Fonctions sensorielles additionnelles",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 2 fonctions sensorielles et douleur",
+      "Fonctions sensorielles additionnelles"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b2\\b250-b279"
+  },
+  {
+    "id": "b280-b289",
+    "name": "Douleur",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 2 fonctions sensorielles et douleur",
+      "Douleur"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b2\\b280-b289"
+  },
+  {
+    "id": "b298",
+    "name": "Autres fonctions sensorielles ou douleurs précisées",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 2 fonctions sensorielles et douleur",
+      "Autres fonctions sensorielles ou douleurs précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b298  Autres fonctions sensorielles ou douleurs précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "b299",
+    "name": "Fonctions sensorielles ou douleurs non précisées",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 2 fonctions sensorielles et douleur",
+      "Fonctions sensorielles ou douleurs non précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b299  Fonctions sensorielles ou douleurs non précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "b310",
+    "name": "Fonctions de la voix",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 3 fonctions de la voix et de la parole",
+      "Fonctions de la voix"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b3\\b310"
+  },
+  {
+    "id": "b320",
+    "name": "Fonctions d'articulation",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 3 fonctions de la voix et de la parole",
+      "Fonctions d'articulation"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b320  Fonctions d'articulation",
+      "description": "Fonctions relatives à production des sons de la parole.",
+      "inclusions": "Inclusions: fonctions d'énonciation, d'articulation des phonèmes; dysarthrie spastique, ataxique, flaccide; anarthrie",
+      "exclusions": "Exclusions: fonctions mentales du langage (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=b167\" title=\".\">b167</a>); fonctions de la voix (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=b310\" title=\".\">b310</a>)"
+    }
+  },
+  {
+    "id": "b330",
+    "name": "Fonctions de fluidité et de rythme de la parole",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 3 fonctions de la voix et de la parole",
+      "Fonctions de fluidité et de rythme de la parole"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b3\\b330"
+  },
+  {
+    "id": "b340",
+    "name": "Autres fonctions de vocalisation",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 3 fonctions de la voix et de la parole",
+      "Autres fonctions de vocalisation"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b3\\b340"
+  },
+  {
+    "id": "b398",
+    "name": "Autres fonctions précisées de la voix et de la parole",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 3 fonctions de la voix et de la parole",
+      "Autres fonctions précisées de la voix et de la parole"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b398  Autres fonctions précisées de la voix et de la parole",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "b399",
+    "name": "Fonctions non précisées de la voix et de la parole",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 3 fonctions de la voix et de la parole",
+      "Fonctions non précisées de la voix et de la parole"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b399  Fonctions non précisées de la voix et de la parole",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "b410-b429",
+    "name": "Fonctions du système cardio-vasculaire",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 4 fonctions des systèmes cardio-vasculaire, hématopoïétique, immunitaire et respiratoire",
+      "Fonctions du système cardio-vasculaire"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b4\\b410-b429"
+  },
+  {
+    "id": "b430-b439",
+    "name": "Fonctions des systèmes hématopoïétique et immunitaire",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 4 fonctions des systèmes cardio-vasculaire, hématopoïétique, immunitaire et respiratoire",
+      "Fonctions des systèmes hématopoïétique et immunitaire"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b4\\b430-b439"
+  },
+  {
+    "id": "b440-b449",
+    "name": "Fonctions du système respiratoire",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 4 fonctions des systèmes cardio-vasculaire, hématopoïétique, immunitaire et respiratoire",
+      "Fonctions du système respiratoire"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b4\\b440-b449"
+  },
+  {
+    "id": "b450-b469",
+    "name": "Fonctions et sensations additionnelles des systèmes cardio-vasculaire et respiratoire",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 4 fonctions des systèmes cardio-vasculaire, hématopoïétique, immunitaire et respiratoire",
+      "Fonctions et sensations additionnelles des systèmes cardio-vasculaire et respiratoire"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b4\\b450-b469"
+  },
+  {
+    "id": "b498",
+    "name": "Autres fonctions précisées des systèmes cardio-vasculaire, hématopoïétique, immunitaire et respiratoire",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 4 fonctions des systèmes cardio-vasculaire, hématopoïétique, immunitaire et respiratoire",
+      "Autres fonctions précisées des systèmes cardio-vasculaire, hématopoïétique, immunitaire et respiratoire"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b498  Autres fonctions précisées des systèmes cardio-vasculaire, hématopoïétique, immunitaire et respiratoire",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "b499",
+    "name": "Fonctions non précisées des systèmes cardio-vasculaire, hématopoïétique, immunitaire et respiratoire",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 4 fonctions des systèmes cardio-vasculaire, hématopoïétique, immunitaire et respiratoire",
+      "Fonctions non précisées des systèmes cardio-vasculaire, hématopoïétique, immunitaire et respiratoire"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b499  Fonctions non précisées des systèmes cardio-vasculaire, hématopoïétique, immunitaire et respiratoire",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "b510-b539",
+    "name": "Fonctions relatives au système digestif",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 5 fonctions des systèmes digestif, métabolique et endocrinien",
+      "Fonctions relatives au système digestif"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b5\\b510-b539"
+  },
+  {
+    "id": "b540-b559",
+    "name": "Fonctions relatives au métabolisme et au système endocrinien",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 5 fonctions des systèmes digestif, métabolique et endocrinien",
+      "Fonctions relatives au métabolisme et au système endocrinien"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b5\\b540-b559"
+  },
+  {
+    "id": "b598",
+    "name": "Autres fonctions précisées relatives aux systèmes digestif, métabolique et endocrinien",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 5 fonctions des systèmes digestif, métabolique et endocrinien",
+      "Autres fonctions précisées relatives aux systèmes digestif, métabolique et endocrinien"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b598  Autres fonctions précisées relatives aux systèmes digestif, métabolique et endocrinien",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "b599",
+    "name": "Fonctions non précisées relatives aux systèmes digestif, métabolique et endocrinien",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 5 fonctions des systèmes digestif, métabolique et endocrinien",
+      "Fonctions non précisées relatives aux systèmes digestif, métabolique et endocrinien"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b599  Fonctions non précisées relatives aux systèmes digestif, métabolique et endocrinien",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "b610-b639",
+    "name": "Fonctions urinaires",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 6 fonctions génito-urinaires et reproductives",
+      "Fonctions urinaires"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b6\\b610-b639"
+  },
+  {
+    "id": "b640-b679",
+    "name": "Fonctions génitales et reproductives",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 6 fonctions génito-urinaires et reproductives",
+      "Fonctions génitales et reproductives"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b6\\b640-b679"
+  },
+  {
+    "id": "b698",
+    "name": "Autres fonctions génito-urinaires et reproductives précisées",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 6 fonctions génito-urinaires et reproductives",
+      "Autres fonctions génito-urinaires et reproductives précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b698  Autres fonctions génito-urinaires et reproductives précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "b699",
+    "name": "Fonctions génito-urinaires et reproductives non précisées",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 6 fonctions génito-urinaires et reproductives",
+      "Fonctions génito-urinaires et reproductives non précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b699  Fonctions génito-urinaires et reproductives non précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "b710-b729",
+    "name": "Fonctions des articulations et des os",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 7 fonctions de l'appareil locomoteur et liées au mouvement",
+      "Fonctions des articulations et des os"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b7\\b710-b729"
+  },
+  {
+    "id": "b730-b749",
+    "name": "Fonctions des muscles",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 7 fonctions de l'appareil locomoteur et liées au mouvement",
+      "Fonctions des muscles"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b7\\b730-b749"
+  },
+  {
+    "id": "b750-b789",
+    "name": "Fonctions liees au mouvement",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 7 fonctions de l'appareil locomoteur et liées au mouvement",
+      "Fonctions liees au mouvement"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b7\\b750-b789"
+  },
+  {
+    "id": "b798",
+    "name": "Autres fonctions précisées de l'appareil locomoteur et liées au mouvement",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 7 fonctions de l'appareil locomoteur et liées au mouvement",
+      "Autres fonctions précisées de l'appareil locomoteur et liées au mouvement"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b798  Autres fonctions précisées de l'appareil locomoteur et liées au mouvement",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "b799",
+    "name": "Fonctions non précisées de l'appareil locomoteur et liées au mouvement",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 7 fonctions de l'appareil locomoteur et liées au mouvement",
+      "Fonctions non précisées de l'appareil locomoteur et liées au mouvement"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b799  Fonctions non précisées de l'appareil locomoteur et liées au mouvement",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "b810-b849",
+    "name": "Fonctions de la peau",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 8 fonctions de la peau et des structures associées",
+      "Fonctions de la peau"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b8\\b810-b849"
+  },
+  {
+    "id": "b850-b869",
+    "name": "Fonctions relatives aux  cheveux, aux poils et aux ongles",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 8 fonctions de la peau et des structures associées",
+      "Fonctions relatives aux  cheveux, aux poils et aux ongles"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\b\\b8\\b850-b869"
+  },
+  {
+    "id": "b898",
+    "name": "Autres fonctions précisées relatives à la peau et aux  structures associées",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 8 fonctions de la peau et des structures associées",
+      "Autres fonctions précisées relatives à la peau et aux  structures associées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b898  Autres fonctions précisées relatives à la peau et aux  structures associées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "b899",
+    "name": "Fonctions non précisées relatives à la peau et aux structures associées",
+    "path": [
+      "B Fonctions organiques",
+      "Chapitre 8 fonctions de la peau et des structures associées",
+      "Fonctions non précisées relatives à la peau et aux structures associées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "b899  Fonctions non précisées relatives à la peau et aux structures associées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s110",
+    "name": "Structure du cerveau",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 1 structures du système nerveux",
+      "Structure du cerveau"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s1\\s110"
+  },
+  {
+    "id": "s120",
+    "name": "Structure de la moelle épinière et structures connexes",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 1 structures du système nerveux",
+      "Structure de la moelle épinière et structures connexes"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s1\\s120"
+  },
+  {
+    "id": "s130",
+    "name": "Structure des méninges",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 1 structures du système nerveux",
+      "Structure des méninges"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s130  Structure des méninges",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s140",
+    "name": "Structure du système nerveux végétatif",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 1 structures du système nerveux",
+      "Structure du système nerveux végétatif"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s140  Structure du système nerveux végétatif",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s150",
+    "name": "Structure du système parasympathique",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 1 structures du système nerveux",
+      "Structure du système parasympathique"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s150  Structure du système parasympathique",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s198",
+    "name": "Autre structure précisée du système nerveux",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 1 structures du système nerveux",
+      "Autre structure précisée du système nerveux"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s198  Autre structure précisée du système nerveux",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s199",
+    "name": "Structure non précisée du système nerveux",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 1 structures du système nerveux",
+      "Structure non précisée du système nerveux"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s199  Structure non précisée du système nerveux",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s210",
+    "name": "Structure de l'orbite",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 2 oeil, oreille et structures annexes",
+      "Structure de l'orbite"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s210  Structure de l'orbite",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s220",
+    "name": "Structure du globe oculaire",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 2 oeil, oreille et structures annexes",
+      "Structure du globe oculaire"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s2\\s220"
+  },
+  {
+    "id": "s230",
+    "name": "Structures entourant l'œil",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 2 oeil, oreille et structures annexes",
+      "Structures entourant l'œil"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s2\\s230"
+  },
+  {
+    "id": "s240",
+    "name": "Structure de l'oreille externe",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 2 oeil, oreille et structures annexes",
+      "Structure de l'oreille externe"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s240  Structure de l'oreille externe",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s250",
+    "name": "Structure de l'oreille moyenne",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 2 oeil, oreille et structures annexes",
+      "Structure de l'oreille moyenne"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s2\\s250"
+  },
+  {
+    "id": "s260",
+    "name": "Structure de l'oreille interne",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 2 oeil, oreille et structures annexes",
+      "Structure de l'oreille interne"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s2\\s260"
+  },
+  {
+    "id": "s298",
+    "name": "Œil, oreille et structures annexes, autres et précisées",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 2 oeil, oreille et structures annexes",
+      "Œil, oreille et structures annexes, autres et précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s298  Œil, oreille et structures annexes, autres et précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s299",
+    "name": "Œil, oreille et structures annexes, non précisées",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 2 oeil, oreille et structures annexes",
+      "Œil, oreille et structures annexes, non précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s299  Œil, oreille et structures annexes, non précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s310",
+    "name": "Structure du nez",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 3 structures liées à la voix et à la parole",
+      "Structure du nez"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s3\\s310"
+  },
+  {
+    "id": "s320",
+    "name": "Structure de la bouche",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 3 structures liées à la voix et à la parole",
+      "Structure de la bouche"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s3\\s320"
+  },
+  {
+    "id": "s330",
+    "name": "Structure du pharynx",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 3 structures liées à la voix et à la parole",
+      "Structure du pharynx"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s3\\s330"
+  },
+  {
+    "id": "s340",
+    "name": "Structure du larynx",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 3 structures liées à la voix et à la parole",
+      "Structure du larynx"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s3\\s340"
+  },
+  {
+    "id": "s398",
+    "name": "Autres structures précisées liées à la voix et à la parole",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 3 structures liées à la voix et à la parole",
+      "Autres structures précisées liées à la voix et à la parole"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s398  Autres structures précisées liées à la voix et à la parole",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s399",
+    "name": "Structures non précisées liées à la voix et à la parole",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 3 structures liées à la voix et à la parole",
+      "Structures non précisées liées à la voix et à la parole"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s399  Structures non précisées liées à la voix et à la parole",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s410",
+    "name": "Structures du système cardio-vasculaire",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 4 structures des systèmes cardio-vasculaire, immunitaire et respiratoire",
+      "Structures du système cardio-vasculaire"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s4\\s410"
+  },
+  {
+    "id": "s420",
+    "name": "Structure du système immunitaire",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 4 structures des systèmes cardio-vasculaire, immunitaire et respiratoire",
+      "Structure du système immunitaire"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s4\\s420"
+  },
+  {
+    "id": "s430",
+    "name": "Structure du système respiratoire",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 4 structures des systèmes cardio-vasculaire, immunitaire et respiratoire",
+      "Structure du système respiratoire"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s4\\s430"
+  },
+  {
+    "id": "s498",
+    "name": "Autres structures précisées des systèmes cardio-vasculaire, immunitaire et respiratoire",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 4 structures des systèmes cardio-vasculaire, immunitaire et respiratoire",
+      "Autres structures précisées des systèmes cardio-vasculaire, immunitaire et respiratoire"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s498  Autres structures précisées des systèmes cardio-vasculaire, immunitaire et respiratoire",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s499",
+    "name": "Structures non précisées des systèmes cardio-vasculaire, immunitaire et respiratoire",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 4 structures des systèmes cardio-vasculaire, immunitaire et respiratoire",
+      "Structures non précisées des systèmes cardio-vasculaire, immunitaire et respiratoire"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s499  Structures non précisées des systèmes cardio-vasculaire, immunitaire et respiratoire",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s510",
+    "name": "Structure des glandes salivaires",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 5 structures liées aux systèmes digestif, métabolique et endocrinien",
+      "Structure des glandes salivaires"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s510  Structure des glandes salivaires",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s520",
+    "name": "Structure de l'œsophage",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 5 structures liées aux systèmes digestif, métabolique et endocrinien",
+      "Structure de l'œsophage"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s520  Structure de l'œsophage",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s530",
+    "name": "Structure de l'estomac",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 5 structures liées aux systèmes digestif, métabolique et endocrinien",
+      "Structure de l'estomac"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s530  Structure de l'estomac",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s540",
+    "name": "Structure de l'intestin",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 5 structures liées aux systèmes digestif, métabolique et endocrinien",
+      "Structure de l'intestin"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s5\\s540"
+  },
+  {
+    "id": "s550",
+    "name": "Structure du pancréas",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 5 structures liées aux systèmes digestif, métabolique et endocrinien",
+      "Structure du pancréas"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s550  Structure du pancréas",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s560",
+    "name": "Structure du foie",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 5 structures liées aux systèmes digestif, métabolique et endocrinien",
+      "Structure du foie"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s560  Structure du foie",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s570",
+    "name": "Structure de la vésicule et des canaux biliaires",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 5 structures liées aux systèmes digestif, métabolique et endocrinien",
+      "Structure de la vésicule et des canaux biliaires"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s570  Structure de la vésicule et des canaux biliaires",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s580",
+    "name": "Structure des glandes endocrines",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 5 structures liées aux systèmes digestif, métabolique et endocrinien",
+      "Structure des glandes endocrines"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s5\\s580"
+  },
+  {
+    "id": "s598",
+    "name": "Autres structures précisées liées aux systèmes digestif, métabolique et endocrinien",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 5 structures liées aux systèmes digestif, métabolique et endocrinien",
+      "Autres structures précisées liées aux systèmes digestif, métabolique et endocrinien"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s598  Autres structures précisées liées aux systèmes digestif, métabolique et endocrinien",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s599",
+    "name": "Structures non précisées liées aux systèmes digestif, métabolique et endocrinien",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 5 structures liées aux systèmes digestif, métabolique et endocrinien",
+      "Structures non précisées liées aux systèmes digestif, métabolique et endocrinien"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s599  Structures non précisées liées aux systèmes digestif, métabolique et endocrinien",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s610",
+    "name": "Structure du système urinaire",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 6 structures liées à l'appareil génito-urinaire",
+      "Structure du système urinaire"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s6\\s610"
+  },
+  {
+    "id": "s620",
+    "name": "Structure du plancher pelvien",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 6 structures liées à l'appareil génito-urinaire",
+      "Structure du plancher pelvien"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s620  Structure du plancher pelvien",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s630",
+    "name": "Structure de l'appareil reproducteur",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 6 structures liées à l'appareil génito-urinaire",
+      "Structure de l'appareil reproducteur"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s6\\s630"
+  },
+  {
+    "id": "s698",
+    "name": "Autre structure précisée liée à l'appareil génito-urinaire",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 6 structures liées à l'appareil génito-urinaire",
+      "Autre structure précisée liée à l'appareil génito-urinaire"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s698  Autre structure précisée liée à l'appareil génito-urinaire",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s699",
+    "name": "Structure non précisée liée à l'appareil génito-urinaire",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 6 structures liées à l'appareil génito-urinaire",
+      "Structure non précisée liée à l'appareil génito-urinaire"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s699  Structure non précisée liée à l'appareil génito-urinaire",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s710",
+    "name": "Structure de la région de la tête et du cou",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 7 structures liées au mouvement",
+      "Structure de la région de la tête et du cou"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s7\\s710"
+  },
+  {
+    "id": "s720",
+    "name": "Structure de la région des épaules",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 7 structures liées au mouvement",
+      "Structure de la région des épaules"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s7\\s720"
+  },
+  {
+    "id": "s730",
+    "name": "Structure du membre supérieur",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 7 structures liées au mouvement",
+      "Structure du membre supérieur"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s7\\s730"
+  },
+  {
+    "id": "s740",
+    "name": "Structure de la région pelvienne",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 7 structures liées au mouvement",
+      "Structure de la région pelvienne"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s7\\s740"
+  },
+  {
+    "id": "s750",
+    "name": "Structure du membre inférieur",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 7 structures liées au mouvement",
+      "Structure du membre inférieur"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s7\\s750"
+  },
+  {
+    "id": "s760",
+    "name": "Structure du tronc",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 7 structures liées au mouvement",
+      "Structure du tronc"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s7\\s760"
+  },
+  {
+    "id": "s770",
+    "name": "Structures supplémentaires de l'appareil locomoteur liées au mouvement",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 7 structures liées au mouvement",
+      "Structures supplémentaires de l'appareil locomoteur liées au mouvement"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s7\\s770"
+  },
+  {
+    "id": "s798",
+    "name": "Autres structures précisées liées au mouvement",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 7 structures liées au mouvement",
+      "Autres structures précisées liées au mouvement"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s798  Autres structures précisées liées au mouvement",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s799",
+    "name": "Structures non précisées liées au mouvement",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 7 structures liées au mouvement",
+      "Structures non précisées liées au mouvement"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s799  Structures non précisées liées au mouvement",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s810",
+    "name": "Structure des aires de la peau",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 8 peau et structures annexes",
+      "Structure des aires de la peau"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s8\\s810"
+  },
+  {
+    "id": "s820",
+    "name": "Structure des glandes cutanées",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 8 peau et structures annexes",
+      "Structure des glandes cutanées"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s8\\s820"
+  },
+  {
+    "id": "s830",
+    "name": "Structure des ongles",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 8 peau et structures annexes",
+      "Structure des ongles"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\s\\s8\\s830"
+  },
+  {
+    "id": "s840",
+    "name": "Structure des cheveux et des poils",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 8 peau et structures annexes",
+      "Structure des cheveux et des poils"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s840  Structure des cheveux et des poils",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s898",
+    "name": "Peau et structures annexes précisées",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 8 peau et structures annexes",
+      "Peau et structures annexes précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s898  Peau et structures annexes précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "s899",
+    "name": "Peau et structures annexes non précisées",
+    "path": [
+      "S Structures anatomiques",
+      "Chapitre 8 peau et structures annexes",
+      "Peau et structures annexes non précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "s899  Peau et structures annexes non précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d110-d129",
+    "name": "Perceptions sensorielles intentionnelles",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 1 apprentissage et application des connaissances",
+      "Perceptions sensorielles intentionnelles"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d1\\d110-d129"
+  },
+  {
+    "id": "d130-d159",
+    "name": "Apprentissage élémentaire",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 1 apprentissage et application des connaissances",
+      "Apprentissage élémentaire"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d1\\d130-d159"
+  },
+  {
+    "id": "d160-d179",
+    "name": "Appliquer des connaissances",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 1 apprentissage et application des connaissances",
+      "Appliquer des connaissances"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d1\\d160-d179"
+  },
+  {
+    "id": "d198",
+    "name": "Apprendre et appliquer des connaissances, autres formes précisées",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 1 apprentissage et application des connaissances",
+      "Apprendre et appliquer des connaissances, autres formes précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d198  Apprendre et appliquer des connaissances, autres formes précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d199",
+    "name": "Apprendre et appliquer des connaissances, formes non précisées",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 1 apprentissage et application des connaissances",
+      "Apprendre et appliquer des connaissances, formes non précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d199  Apprendre et appliquer des connaissances, formes non précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d210",
+    "name": "Entreprendre une tâche unique",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 2 taches et exigences générales",
+      "Entreprendre une tâche unique"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d2\\d210"
+  },
+  {
+    "id": "d220",
+    "name": "Entreprendre des tâches multiples",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 2 taches et exigences générales",
+      "Entreprendre des tâches multiples"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d2\\d220"
+  },
+  {
+    "id": "d230",
+    "name": "Effectuer la routine quotidienne",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 2 taches et exigences générales",
+      "Effectuer la routine quotidienne"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d2\\d230"
+  },
+  {
+    "id": "d240",
+    "name": "Gérer le stress et autres exigences psychologiques",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 2 taches et exigences générales",
+      "Gérer le stress et autres exigences psychologiques"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d2\\d240"
+  },
+  {
+    "id": "d298",
+    "name": "Autres tâches et exigences générales précisées",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 2 taches et exigences générales",
+      "Autres tâches et exigences générales précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d298  Autres tâches et exigences générales précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d299",
+    "name": "Tâches et exigences générales non précisées",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 2 taches et exigences générales",
+      "Tâches et exigences générales non précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d299  Tâches et exigences générales non précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d310-d329",
+    "name": "Communiquer -- recevoir des messages",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 3 communication",
+      "Communiquer -- recevoir des messages"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d3\\d310-d329"
+  },
+  {
+    "id": "d330-d349",
+    "name": "Communiquer -- produire des messages",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 3 communication",
+      "Communiquer -- produire des messages"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d3\\d330-d349"
+  },
+  {
+    "id": "d350-d369",
+    "name": "Conversation et utilisation des appareils et des techniques de communication",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 3 communication",
+      "Conversation et utilisation des appareils et des techniques de communication"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d3\\d350-d369"
+  },
+  {
+    "id": "d398",
+    "name": "Autre communication précisée",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 3 communication",
+      "Autre communication précisée"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d398  Autre communication précisée",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d399",
+    "name": "Communication non précisée",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 3 communication",
+      "Communication non précisée"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d399  Communication non précisée",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d410-d429",
+    "name": "Changer et maintenir la position du corps",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 4 mobilité",
+      "Changer et maintenir la position du corps"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d4\\d410-d429"
+  },
+  {
+    "id": "d430-d449",
+    "name": "Porter, déplacer et manipuler des objets",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 4 mobilité",
+      "Porter, déplacer et manipuler des objets"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d4\\d430-d449"
+  },
+  {
+    "id": "d450-d469",
+    "name": "Marcher et se déplacer",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 4 mobilité",
+      "Marcher et se déplacer"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d4\\d450-d469"
+  },
+  {
+    "id": "d470-d489",
+    "name": "Se déplacer avec un moyen de transport (d470-d479)",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 4 mobilité",
+      "Se déplacer avec un moyen de transport (d470-d479)"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d4\\d470-d489"
+  },
+  {
+    "id": "d498",
+    "name": "Autres activités précisées relatives à la mobilité",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 4 mobilité",
+      "Autres activités précisées relatives à la mobilité"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d498  Autres activités précisées relatives à la mobilité",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d499",
+    "name": "Activités non précisées relatives à la mobilité",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 4 mobilité",
+      "Activités non précisées relatives à la mobilité"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d499  Activités non précisées relatives à la mobilité",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d510",
+    "name": "Se laver",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 5 entretien personnel",
+      "Se laver"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d5\\d510"
+  },
+  {
+    "id": "d520",
+    "name": "Prendre soin de parties de son corps",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 5 entretien personnel",
+      "Prendre soin de parties de son corps"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d5\\d520"
+  },
+  {
+    "id": "d530",
+    "name": "Aller aux toilettes",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 5 entretien personnel",
+      "Aller aux toilettes"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d5\\d530"
+  },
+  {
+    "id": "d540",
+    "name": "S'habiller",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 5 entretien personnel",
+      "S'habiller"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d5\\d540"
+  },
+  {
+    "id": "d550",
+    "name": "Manger",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 5 entretien personnel",
+      "Manger"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d550  Manger",
+      "description": "Coordonner les gestes nécessaires pour préparer des aliments qui ont été servis, les porter à la bouche, les consommer de façon culturellement acceptable, comme couper ou rompre la nourriture en petits morceaux, ouvrir les bouteilles et les canettes, utiliser les couverts, prendre des repas, festoyer, dîner.",
+      "inclusions": "",
+      "exclusions": "Exclusion : boire (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=d560\" title=\".\">d560</a>)"
+    }
+  },
+  {
+    "id": "d560",
+    "name": "Boire",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 5 entretien personnel",
+      "Boire"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d560  Boire",
+      "description": "Coordonner les gestes nécessaires pour prendre une boisson, la porter à la bouche et la consommer selon les usages, mélanger, agiter et verser des liquides à boire, ouvrir les bouteilles et les canettes, boire à la paille ou boire à un robinet ou à une fontaine, téter.",
+      "inclusions": "",
+      "exclusions": "Exclusion : manger (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=d550\" title=\".\">d550</a>)"
+    }
+  },
+  {
+    "id": "d570",
+    "name": "Prendre soin de sa santé",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 5 entretien personnel",
+      "Prendre soin de sa santé"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d5\\d570"
+  },
+  {
+    "id": "d598",
+    "name": "Autres activités précisées relatives à l'entretien personnel",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 5 entretien personnel",
+      "Autres activités précisées relatives à l'entretien personnel"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d598  Autres activités précisées relatives à l'entretien personnel",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d599",
+    "name": "Activités non précisées relatives à l'entretien personnel",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 5 entretien personnel",
+      "Activités non précisées relatives à l'entretien personnel"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d599  Activités non précisées relatives à l'entretien personnel",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d610-d629",
+    "name": "Acquérir les produits d'usage courant",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 6 vie domestique",
+      "Acquérir les produits d'usage courant"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d6\\d610-d629"
+  },
+  {
+    "id": "d630-d649",
+    "name": "Tâches ménagères",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 6 vie domestique",
+      "Tâches ménagères"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d6\\d630-d649"
+  },
+  {
+    "id": "d650-d669",
+    "name": "S'occuper des effets ménagers et s'occuper des autres",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 6 vie domestique",
+      "S'occuper des effets ménagers et s'occuper des autres"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d6\\d650-d669"
+  },
+  {
+    "id": "d698",
+    "name": "Autres aspects précisés de la vie domestique",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 6 vie domestique",
+      "Autres aspects précisés de la vie domestique"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d698  Autres aspects précisés de la vie domestique",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d699",
+    "name": "Aspects non précisés de la vie domestique",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 6 vie domestique",
+      "Aspects non précisés de la vie domestique"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d699  Aspects non précisés de la vie domestique",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d710-d729",
+    "name": "Interactions générales avec autrui",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 7 relations et interactions avec autrui",
+      "Interactions générales avec autrui"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d7\\d710-d729"
+  },
+  {
+    "id": "d730-d779",
+    "name": "Relations particulières avec autrui",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 7 relations et interactions avec autrui",
+      "Relations particulières avec autrui"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d7\\d730-d779"
+  },
+  {
+    "id": "d798",
+    "name": "Autres relations et interactions avec autrui précisées",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 7 relations et interactions avec autrui",
+      "Autres relations et interactions avec autrui précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d798  Autres relations et interactions avec autrui précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d799",
+    "name": "Relations et interactions avec autrui non précisées",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 7 relations et interactions avec autrui",
+      "Relations et interactions avec autrui non précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d799  Relations et interactions avec autrui non précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d810-d839",
+    "name": "Éducation",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 8 grands domaines de la vie",
+      "Éducation"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d8\\d810-d839"
+  },
+  {
+    "id": "d840-d859",
+    "name": "Travail et emploi (d840-859)",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 8 grands domaines de la vie",
+      "Travail et emploi (d840-859)"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d8\\d840-d859"
+  },
+  {
+    "id": "d860-d879",
+    "name": "Vie économique",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 8 grands domaines de la vie",
+      "Vie économique"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d8\\d860-d879"
+  },
+  {
+    "id": "d898",
+    "name": "Autres grands domaines de la vie précisés",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 8 grands domaines de la vie",
+      "Autres grands domaines de la vie précisés"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d898  Autres grands domaines de la vie précisés",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d899",
+    "name": "Grands domaines de la vie non précisés",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 8 grands domaines de la vie",
+      "Grands domaines de la vie non précisés"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d899  Grands domaines de la vie non précisés",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d910",
+    "name": "Vie communautaire",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 9 vie communautaire, sociale et civique",
+      "Vie communautaire"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d9\\d910"
+  },
+  {
+    "id": "d920",
+    "name": "Récréation et loisirs",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 9 vie communautaire, sociale et civique",
+      "Récréation et loisirs"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d9\\d920"
+  },
+  {
+    "id": "d930",
+    "name": "Religion et vie spirituelle",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 9 vie communautaire, sociale et civique",
+      "Religion et vie spirituelle"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\d\\d9\\d930"
+  },
+  {
+    "id": "d940",
+    "name": "Droits humains",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 9 vie communautaire, sociale et civique",
+      "Droits humains"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d940  Droits humains",
+      "description": "Jouir de tous les droits reconnus aux niveaux tant national qu'international à la personne humaine en vertu de sa seule existence en tant qu'être humain, tels que les droits humains reconnus par la Déclaration universelle des droits de l'homme des Nations Unies (1948) et les Règles pour l'égalité des chances des handicapés (1993); le droit à l'autodétermination ou à l'autonomie; le droit de décider de son propre destin.",
+      "inclusions": "",
+      "exclusions": "Exclusions: vie politique et citoyenneté (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=d950\" title=\".\">d950</a>)"
+    }
+  },
+  {
+    "id": "d950",
+    "name": "Vie politique et citoyenneté",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 9 vie communautaire, sociale et civique",
+      "Vie politique et citoyenneté"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d950  Vie politique et citoyenneté",
+      "description": "Participer à la vie sociale, politique et à la vie de la cité en tant que citoyen, avoir le statut légal de citoyen et jouir des droits, de la protection, des privilèges et avoir les devoirs associés à cette qualité, comme avoir le droit de voter, de se porter candidat à une élection, de former un mouvement politique; jouir des droits et des libertés qui découlent de la citoyenneté (par ex. liberté d'expression, d'association, de religion, la protection contre la détention arbitraire, le droit d'avoir un avocat, d'être jugé et de jouir des droits et d'une protection contre la discrimination); avoir un statut légal en tant que citoyen.",
+      "inclusions": "",
+      "exclusions": "Exclusion: droits humains (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=d940\" title=\".\">d940</a>)"
+    }
+  },
+  {
+    "id": "d998",
+    "name": "Autres domaines précisés relatifs à la vie politique et à la citoyenneté",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 9 vie communautaire, sociale et civique",
+      "Autres domaines précisés relatifs à la vie politique et à la citoyenneté"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d998  Autres domaines précisés relatifs à la vie politique et à la citoyenneté",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "d999",
+    "name": "Domaines non précisés relatifs à la vie politique et à la citoyenneté",
+    "path": [
+      "D Activités et participation",
+      "Chapitre 9 vie communautaire, sociale et civique",
+      "Domaines non précisés relatifs à la vie politique et à la citoyenneté"
+    ],
+    "expander": null,
+    "content": {
+      "title": "d999  Domaines non précisés relatifs à la vie politique et à la citoyenneté",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e110",
+    "name": "Produits ou substances pour la consommation personnelle",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 1 produits et systèmes techniques",
+      "Produits ou substances pour la consommation personnelle"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e1\\e110"
+  },
+  {
+    "id": "e115",
+    "name": "Produits et systèmes techniques à usage personnel dans la vie quotidienne",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 1 produits et systèmes techniques",
+      "Produits et systèmes techniques à usage personnel dans la vie quotidienne"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e1\\e115"
+  },
+  {
+    "id": "e120",
+    "name": "Produits et systèmes techniques destinés à faciliter la mobilité et le transport à l'intérieur et à l'extérieur",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 1 produits et systèmes techniques",
+      "Produits et systèmes techniques destinés à faciliter la mobilité et le transport à l'intérieur et à l'extérieur"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e1\\e120"
+  },
+  {
+    "id": "e125",
+    "name": "Produits et systèmes techniques pour la communication",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 1 produits et systèmes techniques",
+      "Produits et systèmes techniques pour la communication"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e1\\e125"
+  },
+  {
+    "id": "e130",
+    "name": "Produits et systèmes techniques pour l'éducation",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 1 produits et systèmes techniques",
+      "Produits et systèmes techniques pour l'éducation"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e1\\e130"
+  },
+  {
+    "id": "e135",
+    "name": "Produits et systèmes techniques pour le commerce, l'industrie et l'emploi",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 1 produits et systèmes techniques",
+      "Produits et systèmes techniques pour le commerce, l'industrie et l'emploi"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e1\\e135"
+  },
+  {
+    "id": "e140",
+    "name": "Produits et systèmes techniques pour la culture, les loisirs et le sport",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 1 produits et systèmes techniques",
+      "Produits et systèmes techniques pour la culture, les loisirs et le sport"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e1\\e140"
+  },
+  {
+    "id": "e145",
+    "name": "Produits et systèmes techniques pour la pratique religieuse et les activités spirituelles",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 1 produits et systèmes techniques",
+      "Produits et systèmes techniques pour la pratique religieuse et les activités spirituelles"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e1\\e145"
+  },
+  {
+    "id": "e150",
+    "name": "Produits et systèmes techniques de l'architecture, de la construction et des aménagements des bâtiments d'utilité publique",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 1 produits et systèmes techniques",
+      "Produits et systèmes techniques de l'architecture, de la construction et des aménagements des bâtiments d'utilité publique"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e1\\e150"
+  },
+  {
+    "id": "e155",
+    "name": "Produits et systèmes techniques de l'architecture, de la construction et des aménagements de bâtiments à usage privé",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 1 produits et systèmes techniques",
+      "Produits et systèmes techniques de l'architecture, de la construction et des aménagements de bâtiments à usage privé"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e1\\e155"
+  },
+  {
+    "id": "e160",
+    "name": "Produits et systèmes techniques de l'aménagement du territoire",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 1 produits et systèmes techniques",
+      "Produits et systèmes techniques de l'aménagement du territoire"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e1\\e160"
+  },
+  {
+    "id": "e165",
+    "name": "Patrimoine",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 1 produits et systèmes techniques",
+      "Patrimoine"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e1\\e165"
+  },
+  {
+    "id": "e198",
+    "name": "Autres produits et technologies précisés",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 1 produits et systèmes techniques",
+      "Autres produits et technologies précisés"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e198  Autres produits et technologies précisés",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e199",
+    "name": "Produits et technologies non précisés",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 1 produits et systèmes techniques",
+      "Produits et technologies non précisés"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e199  Produits et technologies non précisés",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e210",
+    "name": "Géographie physique",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 2 environnement naturel et changements apportés par l'homme à l'environnement",
+      "Géographie physique"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e2\\e210"
+  },
+  {
+    "id": "e215",
+    "name": "Population",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 2 environnement naturel et changements apportés par l'homme à l'environnement",
+      "Population"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e2\\e215"
+  },
+  {
+    "id": "e220",
+    "name": "Flore et faune",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 2 environnement naturel et changements apportés par l'homme à l'environnement",
+      "Flore et faune"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e2\\e220"
+  },
+  {
+    "id": "e225",
+    "name": "Climat",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 2 environnement naturel et changements apportés par l'homme à l'environnement",
+      "Climat"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e2\\e225"
+  },
+  {
+    "id": "e230",
+    "name": "Événements naturels",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 2 environnement naturel et changements apportés par l'homme à l'environnement",
+      "Événements naturels"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e230  Événements naturels",
+      "description": "Changements géographiques et atmosphériques qui causent une perturbation dans l'environnement physique d'une personne, se produisant régulièrement ou non, comme tremblements de terre et conditions météorologiques violentes, par ex. tornades, ouragans, typhons, inondations, feux de forêts, pluies verglaçantes.",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e235",
+    "name": "Événements causés par l'homme",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 2 environnement naturel et changements apportés par l'homme à l'environnement",
+      "Événements causés par l'homme"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e235  Événements causés par l'homme",
+      "description": "Modifications ou troubles dans l'environnement naturel, causés par l'homme, qui peuvent donner lieu à une perturbation de la vie quotidienne des gens, tels que les situations résultant des conflits et des guerres, le déplacement de populations, la destruction de l'infrastructure sociale, des habitations et des terres agricoles, les catastrophes pour l'environnement, comme la pollution de la terre, de l'eau ou de l'air (par ex. les décharges toxiques).",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e240",
+    "name": "Lumière",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 2 environnement naturel et changements apportés par l'homme à l'environnement",
+      "Lumière"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e2\\e240"
+  },
+  {
+    "id": "e245",
+    "name": "Changements liés au temps",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 2 environnement naturel et changements apportés par l'homme à l'environnement",
+      "Changements liés au temps"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e2\\e245"
+  },
+  {
+    "id": "e250",
+    "name": "Son",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 2 environnement naturel et changements apportés par l'homme à l'environnement",
+      "Son"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e2\\e250"
+  },
+  {
+    "id": "e255",
+    "name": "Vibration",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 2 environnement naturel et changements apportés par l'homme à l'environnement",
+      "Vibration"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e255  Vibration",
+      "description": "Mouvement de va-et-vient régulier ou irrégulier d'un objet ou d'un individu causé par une perturbation physique, comme tremblement, frémissement, mouvements rapides et saccadés des objets, des immeubles ou des personnes causés par un équipement gros ou petit, un aéronef et une explosion.",
+      "inclusions": "",
+      "exclusions": "Exclusion: phénomènes naturels (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=e230\" title=\".\">e230</a>) comme des vibrations ou des tremblements de terre"
+    }
+  },
+  {
+    "id": "e260",
+    "name": "Qualité de l'air",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 2 environnement naturel et changements apportés par l'homme à l'environnement",
+      "Qualité de l'air"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e2\\e260"
+  },
+  {
+    "id": "e298",
+    "name": "Autres éléments précisés relatifs à environnement naturel et aux changements apportés par l'homme à l'environnement",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 2 environnement naturel et changements apportés par l'homme à l'environnement",
+      "Autres éléments précisés relatifs à environnement naturel et aux changements apportés par l'homme à l'environnement"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e298  Autres éléments précisés relatifs à environnement naturel et aux changements apportés par l'homme à l'environnement",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e299",
+    "name": "Éléments non précisés relatifs à environnement naturel et aux changements apportés par l'homme à l'environnement",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 2 environnement naturel et changements apportés par l'homme à l'environnement",
+      "Éléments non précisés relatifs à environnement naturel et aux changements apportés par l'homme à l'environnement"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e299  Éléments non précisés relatifs à environnement naturel et aux changements apportés par l'homme à l'environnement",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e310",
+    "name": "Famille proche",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 3 soutiens et relations",
+      "Famille proche"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e310  Famille proche",
+      "description": "Personnes liées par la naissance, par alliance ou par d'autres relations, culturellement reconnues comme constituant la famille proche comme les conjoints, partenaires, parents, frères et sœurs, enfants, parents adoptifs et grands-parents.",
+      "inclusions": "",
+      "exclusions": "Exclusions: famille élargie (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=e315\" title=\".\">e315</a>); prestataires de soins personnels et assistants personnels (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=e340\" title=\".\">e340</a>)"
+    }
+  },
+  {
+    "id": "e315",
+    "name": "Famille élargie",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 3 soutiens et relations",
+      "Famille élargie"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e315  Famille élargie",
+      "description": "Personnes liées par la naissance, par alliance ou par d'autres relations, culturellement reconnues comme constituant la famille élargie, comme les tantes, oncles, nièces, neveux.",
+      "inclusions": "",
+      "exclusions": "Exclusions: famille proche (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=e310\" title=\".\">e310</a>)"
+    }
+  },
+  {
+    "id": "e320",
+    "name": "Amis",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 3 soutiens et relations",
+      "Amis"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e320  Amis",
+      "description": "Personnes qui sont des connaissances proches et qui perdurent dans des relations caractérisées par la confiance et le soutien mutuel.",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e325",
+    "name": "Connaissances, pairs, collègues, voisins et membres d'une communauté",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 3 soutiens et relations",
+      "Connaissances, pairs, collègues, voisins et membres d'une communauté"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e325  Connaissances, pairs, collègues, voisins et membres d'une communauté",
+      "description": "Personnes familières les unes avec les autres en tant que connaissances, pairs, collègues, voisins et membres d'une communauté dans des situations de travail, d'école, de loisirs, ou d'autres circonstances de la vie, et qui ont des caractéristiques démographiques communes, par exemple l'âge, le sexe, la religion ou l'origine ethnique, ou qui partagent les mêmes intérêts.",
+      "inclusions": "",
+      "exclusions": "Exclusion: services associatifs et d'entraide (e5550)"
+    }
+  },
+  {
+    "id": "e330",
+    "name": "Personnes en position d'autorité",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 3 soutiens et relations",
+      "Personnes en position d'autorité"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e330  Personnes en position d'autorité",
+      "description": "Personnes ayant la responsabilité de prendre des décisions pour les autres et qui ont une influence ou un pouvoir défini socialement selon leurs rôles sociaux, économiques, culturels ou religieux dans la société, comme les professeurs, les employeurs, les superviseurs, les chefs religieux, les tuteurs, les gardiens ou les administrateurs.",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e335",
+    "name": "Personnes en position de subordination",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 3 soutiens et relations",
+      "Personnes en position de subordination"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e335  Personnes en position de subordination",
+      "description": "Personnes dont la vie quotidienne est influencée par des personnes en position d'autorité au travail, à l'école ou dans d'autres milieux, comme les élèves ou les étudiants, les travailleurs et les membres d'un groupe religieux.",
+      "inclusions": "",
+      "exclusions": "Exclusions: famille proche (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=e310\" title=\".\">e310</a>)"
+    }
+  },
+  {
+    "id": "e340",
+    "name": "Prestataires de soins personnels et assistants personnels",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 3 soutiens et relations",
+      "Prestataires de soins personnels et assistants personnels"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e340  Prestataires de soins personnels et assistants personnels",
+      "description": "Personnes fournissant des services à la demande afin d'aider d'autres personnes dans leurs activités quotidiennes et les soutenir dans leur performance au travail, l'éducation ou d'autres situations de la vie, services fournis grâce à des fonds publics ou privés ou sur une base volontaire, comme les prestataires de services d'entretien ménager, assistants personnels, assistants au transport, aides rémunérés, bonnes d'enfants et autres personnes prestataires de soins.",
+      "inclusions": "",
+      "exclusions": "Exclusions: famille proche (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=e310\" title=\".\">e310</a>); famille élargie (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=e315\" title=\".\">e315</a>); amis (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=e320\" title=\".\">e320</a>); services généraux d'aide sociale (e5750); professionnels de santé (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=e355\" title=\".\">e355</a>)"
+    }
+  },
+  {
+    "id": "e345",
+    "name": "Personne étrangères",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 3 soutiens et relations",
+      "Personne étrangères"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e345  Personne étrangères",
+      "description": "Personnes qui ne sont ni des familiers ni personnes apparentées, ou qui n'ont pas encore établi une relation ou se sont associées avec la personne concernée, y compris les personnes inconnues qui vivent dans une situation identique, par exemple un professeur suppléant, un collègue, un prestataire de soins.",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e350",
+    "name": "Animaux domestiques",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 3 soutiens et relations",
+      "Animaux domestiques"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e350  Animaux domestiques",
+      "description": "Animaux qui apportent un soutien physique, affectif ou psychologique, comme les animaux de compagnie (chiens, chats, oiseaux, poissons, etc.); animaux qui aident à la mobilité personnelle et au transport.",
+      "inclusions": "",
+      "exclusions": "Exclusions: animaux (e2201); patrimoine (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=e165\" title=\".\">e165</a>)"
+    }
+  },
+  {
+    "id": "e355",
+    "name": "Professionnels de santé",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 3 soutiens et relations",
+      "Professionnels de santé"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e355  Professionnels de santé",
+      "description": "Tous les prestataires de soins travaillant dans le cadre du système de santé, comme les médecins, infirmières, physiothérapeutes, ergothérapeutes, logopèdes, audiométriciens, prothésistes, travailleurs médico-sociaux, et autres fournisseurs de soins.",
+      "inclusions": "",
+      "exclusions": "Exclusion: professionnels de domaines associés à la santé (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=e360\" title=\".\">e360</a>)"
+    }
+  },
+  {
+    "id": "e360",
+    "name": "Autres professionnels",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 3 soutiens et relations",
+      "Autres professionnels"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e360  Autres professionnels",
+      "description": "Tous les prestataires de soins travaillant en dehors du système de santé mais proposant des services qui ont un impact sur la santé, comme les travailleurs sociaux, les professeurs, les architectes, les concepteurs.",
+      "inclusions": "",
+      "exclusions": "Exclusions: professionnels de santé (<a href=\"http://www.who.int/classifications/icfbrowser/Browse.aspx?code=e355\" title=\".\">e355</a>)"
+    }
+  },
+  {
+    "id": "e398",
+    "name": "Autres catégories précisées de soutiens et de relations",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 3 soutiens et relations",
+      "Autres catégories précisées de soutiens et de relations"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e398  Autres catégories précisées de soutiens et de relations",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e399",
+    "name": "Catégories non précisées de soutiens et de relations",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 3 soutiens et relations",
+      "Catégories non précisées de soutiens et de relations"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e399  Catégories non précisées de soutiens et de relations",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e410",
+    "name": "Attitudes individuelles des membres de la proche famille",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 4 attitudes",
+      "Attitudes individuelles des membres de la proche famille"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e410  Attitudes individuelles des membres de la proche famille",
+      "description": "Opinions et points de vue généraux et spécifiques qu'ont les membres de la proche famille sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e415",
+    "name": "Attitudes individuelles des membres de la famille élargie",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 4 attitudes",
+      "Attitudes individuelles des membres de la famille élargie"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e415  Attitudes individuelles des membres de la famille élargie",
+      "description": "Opinions et points de vue généraux et spécifiques qu'ont les membres de la famille élargie sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e420",
+    "name": "Attitudes individuelles des amis",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 4 attitudes",
+      "Attitudes individuelles des amis"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e420  Attitudes individuelles des amis",
+      "description": "Opinions et points de vue généraux et spécifiques qu'ont les amis sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e425",
+    "name": "Attitudes individuelles des connaissances, pairs, collègues, voisins et membres de la communauté",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 4 attitudes",
+      "Attitudes individuelles des connaissances, pairs, collègues, voisins et membres de la communauté"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e425  Attitudes individuelles des connaissances, pairs, collègues, voisins et membres de la communauté",
+      "description": "Opinions et points de vue généraux et spécifiques qu'ont les connaissances, pairs, collègues, voisins et membres de la communauté sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e430",
+    "name": "Attitudes individuelles des personnes en position d'autorité",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 4 attitudes",
+      "Attitudes individuelles des personnes en position d'autorité"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e430  Attitudes individuelles des personnes en position d'autorité",
+      "description": "Opinions et points de vue généraux et spécifiques qu'ont les personnes en position d'autorité sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e435",
+    "name": "Attitudes individuelles des personnes en position de subordination",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 4 attitudes",
+      "Attitudes individuelles des personnes en position de subordination"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e435  Attitudes individuelles des personnes en position de subordination",
+      "description": "Opinions et points de vue généraux et spécifiques qu'ont les personnes en position de subordination sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e440",
+    "name": "Attitudes individuelles des prestataires de soins personnels et aides domestiques",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 4 attitudes",
+      "Attitudes individuelles des prestataires de soins personnels et aides domestiques"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e440  Attitudes individuelles des prestataires de soins personnels et aides domestiques",
+      "description": "Opinions et points de vue généraux et spécifiques qu'ont les dispensateurs de soins personnels et aides domestiques sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e445",
+    "name": "Attitudes individuelles des étrangers",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 4 attitudes",
+      "Attitudes individuelles des étrangers"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e445  Attitudes individuelles des étrangers",
+      "description": "Opinions et points de vue généraux et spécifiques qu'ont les étrangers sur la personnes considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e450",
+    "name": "Attitudes individuelles des professionnels de santé",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 4 attitudes",
+      "Attitudes individuelles des professionnels de santé"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e450  Attitudes individuelles des professionnels de santé",
+      "description": "Opinions et points de vue généraux et spécifiques qu'ont les professionnels de santé sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e455",
+    "name": "Attitudes individuelles des professionnels de domaines associés à la santé",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 4 attitudes",
+      "Attitudes individuelles des professionnels de domaines associés à la santé"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e455  Attitudes individuelles des professionnels de domaines associés à la santé",
+      "description": "Opinions et points de vue généraux et spécifiques qu'ont les professionnels de domaines associés à la santé sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e460",
+    "name": "Attitudes sociétales",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 4 attitudes",
+      "Attitudes sociétales"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e460  Attitudes sociétales",
+      "description": "Opinions et points de vue généraux et spécifiques qu'ont les membres d'une culture, d'une société, de groupement sous-culturels ou autres sur la personne considérée ou sur d'autres sujets (par ex. enjeux sociaux, politiques et économiques) qui influent sur le comportement et les actes individuels.",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e465",
+    "name": "Normes sociales, pratiques et idéologies",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 4 attitudes",
+      "Normes sociales, pratiques et idéologies"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e465  Normes sociales, pratiques et idéologies",
+      "description": "Coutumes, pratiques, règlements et systèmes abstraits de valeurs et de croyances normatives (p. ex., idéologies, visions normatives du monde et philosophies morales) qui se manifestent dans des contextes sociaux et qui affectent ou créent les croyances, les valeurs et les attitudes sociétales et individuelles, comme normes sociales liées à la morale, l'étiquette et la religion; doctrines religieuses, normes et conventions qui en découlent; normes régissant les rituels et les rassemblements de personnes.",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e498",
+    "name": "Autres attitudes précisées",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 4 attitudes",
+      "Autres attitudes précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e498  Autres attitudes précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e499",
+    "name": "Attitudes non précisées",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 4 attitudes",
+      "Attitudes non précisées"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e499  Attitudes non précisées",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e510",
+    "name": "Services, systèmes et politiques pour la production de biens de consommation",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques pour la production de biens de consommation"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e510"
+  },
+  {
+    "id": "e515",
+    "name": "Services, systèmes et politiques relatifs à l'architecture et la construction",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques relatifs à l'architecture et la construction"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e515"
+  },
+  {
+    "id": "e520",
+    "name": "Services, systèmes et politiques relatifs à la planification des zones de plein air",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques relatifs à la planification des zones de plein air"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e520"
+  },
+  {
+    "id": "e525",
+    "name": "Services, systèmes et politiques relatifs au logement",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques relatifs au logement"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e525"
+  },
+  {
+    "id": "e530",
+    "name": "Services, systèmes et politiques relatifs aux services de première nécessité",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques relatifs aux services de première nécessité"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e530"
+  },
+  {
+    "id": "e535",
+    "name": "Services, systèmes et politiques relatifs à la communication",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques relatifs à la communication"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e535"
+  },
+  {
+    "id": "e540",
+    "name": "Services, systèmes et politiques relatifs aux transports",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques relatifs aux transports"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e540"
+  },
+  {
+    "id": "e545",
+    "name": "Services, systèmes et politiques relatifs à la protection civile",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques relatifs à la protection civile"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e545"
+  },
+  {
+    "id": "e550",
+    "name": "Services, systèmes et politiques relatifs au droit",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques relatifs au droit"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e550"
+  },
+  {
+    "id": "e555",
+    "name": "Services, systèmes et politiques relatifs aux associations et aux services d'entraide",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques relatifs aux associations et aux services d'entraide"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e555"
+  },
+  {
+    "id": "e560",
+    "name": "Services, systèmes et politiques relatifs aux médias",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques relatifs aux médias"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e560"
+  },
+  {
+    "id": "e565",
+    "name": "Services, systèmes et politiques relatifs à l'économie",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques relatifs à l'économie"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e565"
+  },
+  {
+    "id": "e570",
+    "name": "Services, systèmes et politiques relatifs à la sécurité sociale",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques relatifs à la sécurité sociale"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e570"
+  },
+  {
+    "id": "e575",
+    "name": "Services, systèmes et politiques relatifs aux services sociaux généraux",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques relatifs aux services sociaux généraux"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e575"
+  },
+  {
+    "id": "e580",
+    "name": "Services, systèmes et politiques relatifs à la santé",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques relatifs à la santé"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e580"
+  },
+  {
+    "id": "e585",
+    "name": "Services, systèmes et politiques relatifs à l'éducation et à la formation",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques relatifs à l'éducation et à la formation"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e585"
+  },
+  {
+    "id": "e590",
+    "name": "Services, systèmes et politiques relatifs au travail et à l'emploi",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques relatifs au travail et à l'emploi"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e590"
+  },
+  {
+    "id": "e595",
+    "name": "Services, systèmes, politiques relatifs à la participation à la vie de la cité",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes, politiques relatifs à la participation à la vie de la cité"
+    ],
+    "expander": "2|13|fftf|25|s  STRUCTURES ANATOMIQUES0|ICF\\e\\e5\\e595"
+  },
+  {
+    "id": "e598",
+    "name": "Autres services, systèmes et politiques précisés",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Autres services, systèmes et politiques précisés"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e598  Autres services, systèmes et politiques précisés",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  },
+  {
+    "id": "e599",
+    "name": "Services, systèmes et politiques non précisés",
+    "path": [
+      "E Facteurs environnementaux",
+      "Chapitre 5  services, systemes et politiques",
+      "Services, systèmes et politiques non précisés"
+    ],
+    "expander": null,
+    "content": {
+      "title": "e599 Services, systèmes et politiques non précisés",
+      "description": "",
+      "inclusions": "",
+      "exclusions": ""
+    }
+  }
+]
